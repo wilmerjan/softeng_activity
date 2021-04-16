@@ -18,6 +18,22 @@
                                 <breeze-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                                     Dashboard
                                 </breeze-nav-link>
+                                <breeze-nav-link
+                                    :href="route('sc.index')"
+                                    :active="route().current('dashboard')"
+                                >
+                                    Stock Categories
+                                </breeze-nav-link>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
+                            >
+                                <breeze-nav-link
+                                    :href="route('stock.index')"
+                                    :active="route().current('dashboard')"
+                                >
+                                    Stocks
+                                </breeze-nav-link>
                             </div>
                         </div>
 
