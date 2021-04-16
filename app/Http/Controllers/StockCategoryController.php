@@ -28,6 +28,7 @@ class StockCategoryController extends Controller
      */
     public function create()
     {
+        
        return Inertia::render('StockCategories/Create');
     }
 
